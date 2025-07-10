@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maupio - Visual Communication Excellence</title>
+    <meta name="description" content="Professional visual communication studio specializing in 3D visualization, motion design, and presentation design for mining, engineering, architecture, and property development." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="icon" type="image/x-icon" href="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=64&auto=format&fit=crop" />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fmaupiostu1972back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.5"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <header class="bg-surface shadow-subtle sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img src="../assets/images/IMG_7030-1752178004579.PNG" alt="Maupio Logo" class="h-10 w-auto mr-3" />
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="services_overview.html" class="text-text-secondary hover:text-primary transition-smooth px-3 py-2 text-sm font-medium">Services</a>
+                        <a href="portfolio_gallery.html" class="text-text-secondary hover:text-primary transition-smooth px-3 py-2 text-sm font-medium">Portfolio</a>
+                        <a href="about_us.html" class="text-text-secondary hover:text-primary transition-smooth px-3 py-2 text-sm font-medium">About</a>
+                        <a href="blog.html" class="text-text-secondary hover:text-primary transition-smooth px-3 py-2 text-sm font-medium">Blog</a>
+                        <a href="contact.html" class="text-text-secondary hover:text-primary transition-smooth px-3 py-2 text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="contact.html" class="bg-secondary text-white px-6 py-2 rounded-lg font-medium hover:bg-secondary-600 transition-smooth">
+                        Start Your Project
+                    </a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-text-secondary hover:text-primary p-2" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-surface border-t border-border-light">
+                    <a href="services_overview.html" class="text-text-secondary hover:text-primary block px-3 py-2 text-base font-medium">Services</a>
+                    <a href="portfolio_gallery.html" class="text-text-secondary hover:text-primary block px-3 py-2 text-base font-medium">Portfolio</a>
+                    <a href="about_us.html" class="text-text-secondary hover:text-primary block px-3 py-2 text-base font-medium">About</a>
+                    <a href="blog.html" class="text-text-secondary hover:text-primary block px-3 py-2 text-base font-medium">Blog</a>
+                    <a href="contact.html" class="text-text-secondary hover:text-primary block px-3 py-2 text-base font-medium">Contact</a>
+                    <a href="contact.html" class="bg-secondary text-white block px-3 py-2 rounded-lg font-medium text-center mt-4">Start Your Project</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-primary-900 text-white overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Modern architectural visualization" class="w-full h-full object-cover opacity-30" onerror="this.src='https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=2940'; this.onerror=null;" />
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <h1 class="text-4xl lg:text-6xl font-heading font-bold leading-tight">
+                        Visual Communication
+                        <span class="text-accent block">Excellence</span>
+                    </h1>
+                    <p class="text-xl lg:text-2xl text-primary-200 leading-relaxed">
+                        Transforming complex technical concepts into compelling visual narratives for mining, engineering, architecture, and property development.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="contact.html" class="bg-accent text-primary-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-accent-400 transition-smooth text-center">
+                            Start Your Project
+                        </a>
+                        <a href="portfolio_gallery.html" class="border-2 border-accent text-accent px-8 py-4 rounded-lg font-semibold text-lg hover:bg-accent hover:text-primary-900 transition-smooth text-center">
+                            View Our Work
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-accent/20 to-secondary/20 rounded-2xl p-8 backdrop-blur-sm">
+                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="3D architectural visualization showcase" class="w-full h-64 lg:h-80 object-cover rounded-lg shadow-elevated" onerror="this.src='https://images.pixabay.com/photo/2016/11/29/03/53/architecture-1867187_1280.jpg'; this.onerror=null;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Our Core Services
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Comprehensive visual communication solutions tailored for technical and industrial sectors
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 3D Visualisation -->
+                <div class="bg-background rounded-xl p-8 hover:shadow-card-hover transition-smooth group">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-secondary-200 transition-smooth">
+                        <svg class="w-8 h-8 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-4">3D Visualisation</h3>
+                    <p class="text-text-secondary mb-6">
+                        Photorealistic 3D renders and animations for architectural, engineering, and mining projects.
+                    </p>
+                    <a href="services_overview.html" class="text-secondary font-medium hover:text-secondary-600 transition-smooth">
+                        Learn More →
+                    </a>
+                </div>
+                
+                <!-- Motion Design -->
+                <div class="bg-background rounded-xl p-8 hover:shadow-card-hover transition-smooth group">
+                    <div class="w-16 h-16 bg-accent-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-accent-200 transition-smooth">
+                        <svg class="w-8 h-8 text-accent-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-4">Motion Design</h3>
+                    <p class="text-text-secondary mb-6">
+                        Dynamic animations and video content that bring technical processes to life.
+                    </p>
+                    <a href="services_overview.html" class="text-secondary font-medium hover:text-secondary-600 transition-smooth">
+                        Learn More →
+                    </a>
+                </div>
+                
+                <!-- Presentation Design -->
+                <div class="bg-background rounded-xl p-8 hover:shadow-card-hover transition-smooth group">
+                    <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary-200 transition-smooth">
+                        <svg class="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-4">Presentation Design</h3>
+                    <p class="text-text-secondary mb-6">
+                        Professional presentations that communicate complex technical information clearly.
+                    </p>
+                    <a href="services_overview.html" class="text-secondary font-medium hover:text-secondary-600 transition-smooth">
+                        Learn More →
+                    </a>
+                </div>
+                
+                <!-- Interactive Content -->
+                <div class="bg-background rounded-xl p-8 hover:shadow-card-hover transition-smooth group">
+                    <div class="w-16 h-16 bg-success/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-success/20 transition-smooth">
+                        <svg class="w-8 h-8 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-4">Interactive Content</h3>
+                    <p class="text-text-secondary mb-6">
+                        Engaging digital experiences and interactive visualizations for stakeholder engagement.
+                    </p>
+                    <a href="services_overview.html" class="text-secondary font-medium hover:text-secondary-600 transition-smooth">
+                        Learn More →
+                    </a>
+                </div>
+                
+                <!-- Visual Strategy -->
+                <div class="bg-background rounded-xl p-8 hover:shadow-card-hover transition-smooth group md:col-span-2 lg:col-span-1">
+                    <div class="w-16 h-16 bg-warning/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-warning/20 transition-smooth">
+                        <svg class="w-8 h-8 text-warning" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-4">Visual Strategy</h3>
+                    <p class="text-text-secondary mb-6">
+                        Strategic visual communication planning to maximize project impact and stakeholder buy-in.
+                    </p>
+                    <a href="services_overview.html" class="text-secondary font-medium hover:text-secondary-600 transition-smooth">
+                        Learn More →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Focus -->
+    <section class="py-20 bg-primary-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Industry Expertise
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Specialized knowledge across key technical and industrial sectors
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Mining -->
+                <div class="text-center group">
+                    <div class="relative mb-6 overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Mining operations visualization" class="w-full h-48 object-cover group-hover:scale-105 transition-layout" onerror="this.src='https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=2940'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-primary-900/40 group-hover:bg-primary-900/20 transition-smooth"></div>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-2">Mining</h3>
+                    <p class="text-text-secondary">Complex mining operations and equipment visualization</p>
+                </div>
+                
+                <!-- Engineering -->
+                <div class="text-center group">
+                    <div class="relative mb-6 overflow-hidden rounded-xl">
+                        <img src="https://images.pixabay.com/photo/2017/08/10/14/09/blueprint-2619739_1280.jpg" alt="Engineering blueprints and technical drawings" class="w-full h-48 object-cover group-hover:scale-105 transition-layout" onerror="this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-secondary-900/40 group-hover:bg-secondary-900/20 transition-smooth"></div>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-2">Engineering</h3>
+                    <p class="text-text-secondary">Technical systems and infrastructure visualization</p>
+                </div>
+                
+                <!-- Architecture -->
+                <div class="text-center group">
+                    <div class="relative mb-6 overflow-hidden rounded-xl">
+                        <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=2940" alt="Modern architectural design" class="w-full h-48 object-cover group-hover:scale-105 transition-layout" onerror="this.src='https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-accent-900/40 group-hover:bg-accent-900/20 transition-smooth"></div>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-2">Architecture</h3>
+                    <p class="text-text-secondary">Architectural concepts and building visualization</p>
+                </div>
+                
+                <!-- Property Development -->
+                <div class="text-center group">
+                    <div class="relative mb-6 overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Property development project" class="w-full h-48 object-cover group-hover:scale-105 transition-layout" onerror="this.src='https://images.pixabay.com/photo/2016/11/29/03/53/architecture-1867187_1280.jpg'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-success/40 group-hover:bg-success/20 transition-smooth"></div>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-2">Property Development</h3>
+                    <p class="text-text-secondary">Development projects and marketing visualization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Client Success Stories
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Trusted by industry leaders across technical and industrial sectors
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Testimonial 1 -->
+                <div class="bg-background rounded-xl p-8 shadow-card">
+                    <div class="flex items-start space-x-4">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Client testimonial" class="w-16 h-16 rounded-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png'; this.onerror=null;" />
+                        <div class="flex-1">
+                            <div class="flex text-accent mb-4">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                            </div>
+                            <blockquote class="text-text-primary text-lg mb-4">
+                                "Maupio's 3D visualizations transformed how we present our mining operations to stakeholders. The technical accuracy combined with stunning visuals made our project approval process seamless."
+                            </blockquote>
+                            <div>
+                                <p class="font-semibold text-primary">Michael Chen</p>
+                                <p class="text-text-secondary">Project Director, Apex Mining Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-background rounded-xl p-8 shadow-card">
+                    <div class="flex items-start space-x-4">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Client testimonial" class="w-16 h-16 rounded-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png'; this.onerror=null;" />
+                        <div class="flex-1">
+                            <div class="flex text-accent mb-4">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                            </div>
+                            <blockquote class="text-text-primary text-lg mb-4">
+                                "The architectural presentations created by Maupio helped us secure major development funding. Their ability to communicate complex design concepts visually is unmatched."
+                            </blockquote>
+                            <div>
+                                <p class="font-semibold text-primary">Sarah Rodriguez</p>
+                                <p class="text-text-secondary">Lead Architect, Urban Design Collective</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Work Showcase -->
+    <section class="py-20 bg-primary-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-primary mb-4">
+                    Recent Work
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Explore our latest visual communication projects across industries
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <!-- Project 1 -->
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden rounded-xl mb-4">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Mining facility 3D visualization" class="w-full h-64 object-cover group-hover:scale-105 transition-layout" onerror="this.src='https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=2940'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-primary-900/0 group-hover:bg-primary-900/20 transition-smooth"></div>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-2">Mining Operations Center</h3>
+                    <p class="text-text-secondary">3D visualization of underground mining facility with equipment placement</p>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden rounded-xl mb-4">
+                        <img src="https://images.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg" alt="Residential development visualization" class="w-full h-64 object-cover group-hover:scale-105 transition-layout" onerror="this.src='https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2940&auto=format&fit=crop'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-secondary-900/0 group-hover:bg-secondary-900/20 transition-smooth"></div>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-2">Residential Development</h3>
+                    <p class="text-text-secondary">Architectural visualization for luxury residential complex marketing</p>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden rounded-xl mb-4">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Industrial engineering project" class="w-full h-64 object-cover group-hover:scale-105 transition-layout" onerror="this.src='https://images.pixabay.com/photo/2017/08/10/14/09/blueprint-2619739_1280.jpg'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-accent-900/0 group-hover:bg-accent-900/20 transition-smooth"></div>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-primary mb-2">Industrial Engineering</h3>
+                    <p class="text-text-secondary">Technical presentation design for manufacturing process optimization</p>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="portfolio_gallery.html" class="bg-secondary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary-600 transition-smooth">
+                    View Full Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <img src="../assets/images/IMG_7030-1752178004579.PNG" alt="Maupio Logo" class="h-10 w-auto mr-3" />
+                    </div>
+                    <p class="text-primary-200 mb-6 max-w-md">
+                        Professional visual communication studio specializing in technical visualization for mining, engineering, architecture, and property development sectors.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-white font-heading font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services_overview.html" class="text-primary-200 hover:text-accent transition-smooth">Services</a></li>
+                        <li><a href="portfolio_gallery.html" class="text-primary-200 hover:text-accent transition-smooth">Portfolio</a></li>
+                        <li><a href="about_us.html" class="text-primary-200 hover:text-accent transition-smooth">About Us</a></li>
+                        <li><a href="blog.html" class="text-primary-200 hover:text-accent transition-smooth">Blog</a></li>
+                        <li><a href="contact.html" class="text-primary-200 hover:text-accent transition-smooth">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter -->
+                <div>
+                    <h3 class="text-white font-heading font-semibold text-lg mb-4">Stay Updated</h3>
+                    <p class="text-primary-200 mb-4">Subscribe to our newsletter for industry insights and project updates.</p>
+                    <form class="space-y-3">
+                        <input type="email" placeholder="Enter your email" class="w-full px-4 py-2 rounded-lg bg-primary-800 text-white placeholder-primary-300 border border-primary-700 focus:border-accent focus:outline-none" />
+                        <button type="submit" class="w-full bg-accent text-primary-900 px-4 py-2 rounded-lg font-semibold hover:bg-accent-400 transition-smooth">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-primary-800 mt-12 pt-8 text-center">
+                <p class="text-primary-200">
+                    © 2025 Maupio. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
